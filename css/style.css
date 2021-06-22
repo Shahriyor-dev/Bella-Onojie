@@ -111,8 +111,8 @@ a:hover {
   line-height: 38px;
   letter-spacing: 0.2px;
   color: #f7f7f7;
-  margin-bottom: 54px;
-  margin-top: 0;
+  margin: 0 auto 54px;
+  max-width: 551px;
 }
 .hero-button {
   padding: 16px 58.5px;
