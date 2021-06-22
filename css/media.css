@@ -18,6 +18,7 @@
   }
   .app-image {
     order: 2;
+    margin-right: 11px;
   }
   .app-image:last-child {
     display: none;
@@ -27,6 +28,9 @@
   }
   .app .row {
     margin-bottom: 80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .footer-logo {
     display: none;
@@ -63,6 +67,9 @@
     background-image: none;
     background-color: #252b42;
   }
+  .app-image {
+    margin-right: 50px;
+  }
 }
 @media (max-width: 576px) {
   .hero-img-2 {
@@ -86,6 +93,18 @@
     margin: auto;
     display: inline-block;
     margin-top: 15px;
+  }
+  .app-image {
+    margin-right: 100px;
+  }
+  .app-title {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+  .app-description,
+  .app-subtitle {
+    font-size: 18px;
+    line-height: 1.4;
   }
 }
 @media (max-width: 473px) {
@@ -131,6 +150,9 @@
     font-size: 35px;
     line-height: 1.4;
   }
+  .app-image {
+    margin-right: 130px;
+  }
 }
 @media (max-width: 417px) {
   .hero-img-1 {
@@ -155,6 +177,18 @@
   .download-button.orange {
     margin-right: 10px;
   }
+  .app-image {
+    margin-right: 150px;
+  }
+  .app-title {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  .app-description,
+  .app-subtitle {
+    font-size: 16px;
+    line-height: 1.4;
+  }
 }
 @media (max-width: 320px) {
   .download-buttons {
@@ -163,5 +197,8 @@
   .download-button.orange {
     margin-right: 0;
     margin-bottom: 10px;
+  }
+  .app-image {
+    margin-right: 170px;
   }
 }
